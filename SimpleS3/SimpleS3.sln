@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleS3.Api", "src\SimpleS3.Api\SimpleS3.Api.csproj", "{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleS3.Core", "src\SimpleS3.Core\SimpleS3.Core.csproj", "{81BBC4FC-48CE-41DD-A905-4292FFC6C08C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleS3.Infra", "src\SimpleS3.Infra\SimpleS3.Infra.csproj", "{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3920034F-5776-4CC6-B560-5CF89E13984A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED187EEF-C1E3-4EB5-903B-187BE2FF26EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleS3.Integration.Tests", "tests\SimpleS3.Integration.Tests\SimpleS3.Integration.Tests.csproj", "{9F08111E-8C4B-4192-9DDC-C2864F446D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BBC4FC-48CE-41DD-A905-4292FFC6C08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BBC4FC-48CE-41DD-A905-4292FFC6C08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BBC4FC-48CE-41DD-A905-4292FFC6C08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BBC4FC-48CE-41DD-A905-4292FFC6C08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F08111E-8C4B-4192-9DDC-C2864F446D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F08111E-8C4B-4192-9DDC-C2864F446D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F08111E-8C4B-4192-9DDC-C2864F446D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F08111E-8C4B-4192-9DDC-C2864F446D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB881575-AC8F-4180-97F1-D5B5D5BC6E3B} = {ED187EEF-C1E3-4EB5-903B-187BE2FF26EB}
+		{81BBC4FC-48CE-41DD-A905-4292FFC6C08C} = {ED187EEF-C1E3-4EB5-903B-187BE2FF26EB}
+		{4DD99A7E-6ADE-43C0-B1C8-873CCC3542E2} = {ED187EEF-C1E3-4EB5-903B-187BE2FF26EB}
+		{9F08111E-8C4B-4192-9DDC-C2864F446D34} = {3920034F-5776-4CC6-B560-5CF89E13984A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B09561F-A533-4C8A-BAC2-02EB9FCCF168}
+	EndGlobalSection
+EndGlobal
